@@ -121,7 +121,7 @@ section > div {
 @media only screen and (max-width: 550px) {
   .experience-cards {
     overflow: hidden;
-    padding-left: 30px;
+    padding-left: 0px;
     padding-right: 30px;
   }
 }
@@ -167,6 +167,7 @@ section > div {
 
 .card1 .card-body {
   display: flex;
+  font-size: 16px;
   flex-flow: row wrap;
   padding: 18px;
   color: var(--head-col);
@@ -183,10 +184,10 @@ section > div {
   text-align: center;
 }
 
-ul ol {
+/* ul ol {
   list-style: disc;
   padding: 3%;
-}
+} */
 
 .card1 .featured-image {
   background-size: cover;
@@ -633,7 +634,7 @@ ul ol {
   font-size: 24px;
   font-weight: 900;
   color: var(--head-col);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 /* Role in Hackathon   */
@@ -649,6 +650,7 @@ ul ol {
 /* Hackathon Description   */
 
 .blog-slider__text {
+  font-size: 16px;
   color: (var(--head-col));
   margin-bottom: 30px;
   line-height: 1.5em;
