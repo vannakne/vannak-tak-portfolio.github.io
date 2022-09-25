@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "Quiz App",
-    cardImage: "assets/images/project-page/quiz.jpg",
+    cardImage: "assets/images/project-page/CERTIFICATE_LANDING_PAGE~5ETBQTEVPHC2.jpeg",
     description: "A quiz app built using basic react.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "Chess Engine",
-    cardImage: "assets/images/project-page/chess.jpg",
+    cardImage: "assets/images/project-page/robot_framework.png",
     description: "A chess engine for a popular game dev engine.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "",

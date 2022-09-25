@@ -316,7 +316,7 @@ input[type="text"] {
 }
 
 .skill-card {
-  width: 300px;
+  width: 600px;
   border: 0;
   border-radius: 10px;
 }
@@ -390,10 +390,11 @@ ul {
   flex-direction: column;
   align-items: center;
   margin-bottom: 5%;
+  padding: 1px;
 }
 
 .page-content {
-  padding: 1rem;
+  padding: 1px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -524,12 +525,47 @@ ul {
   }
 }
 
+/* Iphone 12 pro */
+@media only screen and (max-width: 391px) {
+  .card .wrapper {
+    min-height: 13.5rem;
+    min-width: 15rem;
+  }
+}
+
+/* Iphone 12 pro max */
+@media only screen and (max-width: 429px) {
+  .card .wrapper {
+    min-height: 15rem;
+    min-width: 15rem;
+  }
+}
+/* other */
 @media (max-width: 377px) {
   .skill-card .data {
     transform: translateY(calc(90px + 4em));
   }
   .social-icon svg {
     margin-top: 20px;
+  }
+  .card .wrapper {
+    min-height: 13rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .card .wrapper {
+    min-width: 25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .projectcards {
+    justify-content: space-evenly;
+  }
+  .card .wrapper {
+    min-height: 23rem;
   }
 }
 
@@ -540,6 +576,7 @@ ul {
     padding: 5px;
   }
 }
+
 
 .main {
   display: flex;
