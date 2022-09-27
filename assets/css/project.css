@@ -531,13 +531,19 @@ ul {
     min-height: 13.5rem;
     min-width: 15rem;
   }
+  .card .title {
+    font-size: 20px;
+  }
 }
 
 /* Iphone 12 pro max */
 @media only screen and (max-width: 429px) {
   .card .wrapper {
-    min-height: 16rem;
+    min-height: 14rem;
     min-width: 15rem;
+  }
+  .card .title {
+    font-size: 20px;
   }
 }
 /* other */
@@ -550,6 +556,9 @@ ul {
   }
   .card .wrapper {
     min-height: 13rem;
+  }
+  .card .title {
+    font-size: 20px;
   }
 }
 
