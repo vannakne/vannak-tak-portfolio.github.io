@@ -536,7 +536,7 @@ ul {
 /* Iphone 12 pro max */
 @media only screen and (max-width: 429px) {
   .card .wrapper {
-    min-height: 15rem;
+    min-height: 16rem;
     min-width: 15rem;
   }
 }
@@ -565,7 +565,7 @@ ul {
     justify-content: space-evenly;
   }
   .card .wrapper {
-    min-height: 23rem;
+    min-height: 19rem;
   }
 }
 
