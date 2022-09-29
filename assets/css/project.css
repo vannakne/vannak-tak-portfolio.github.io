@@ -189,7 +189,7 @@ a:hover {
   background-color: #fff;
   border: 0;
   border-radius: 10px;
-  min-height: 24rem;
+  min-height: 23.5rem;
   position: relative;
   overflow: hidden;
   box-shadow: 0 19px 38px var(--shadow1), 0 15px 12px var(--shadow2);
@@ -569,12 +569,12 @@ ul {
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1300px) {
   .projectcards {
     justify-content: space-evenly;
   }
   .card .wrapper {
-    min-height: 19rem;
+    min-height: 20rem;
   }
 }
 
