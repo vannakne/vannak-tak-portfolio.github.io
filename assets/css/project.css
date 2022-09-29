@@ -538,7 +538,7 @@ ul {
 }
 
 /* Iphone 12 pro max */
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 430px) {
   .card .wrapper {
     min-height: 14.3rem;
   }
