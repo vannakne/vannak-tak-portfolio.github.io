@@ -549,7 +549,7 @@ ul {
 /* other */
 @media (max-width: 377px) {
   .skill-card .data {
-    transform: translateY(calc(90px + 4em));
+    transform: translateY(calc(100px + 4em));
   }
   .social-icon svg {
     margin-top: 20px;
@@ -558,7 +558,13 @@ ul {
     min-height: 13rem;
   }
   .card .title {
-    font-size: 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .card .wrapper {
+    min-height: 11rem;
   }
 }
 
@@ -902,4 +908,3 @@ SVG ANIMATIONS PROJECT PAGE
   animation-duration: 3.3s;
   transform-origin: 785.132px 295.833px;
 }
->>>>>>> certificates
