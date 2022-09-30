@@ -190,7 +190,7 @@ a:hover {
   background-color: #fff;
   border: 0;
   border-radius: 10px;
-  min-height: 23.5rem;
+  min-height: 17rem;
   position: relative;
   overflow: hidden;
   box-shadow: 0 19px 38px var(--shadow1), 0 15px 12px var(--shadow2);
@@ -215,7 +215,8 @@ a:hover {
 }
 
 .card .data .content {
-  padding: 1em;
+  padding: 0.5em;
+  padding-bottom: 10%;
   position: relative;
   z-index: 1;
 }
@@ -529,8 +530,7 @@ ul {
 /* Iphone 12 pro */
 @media only screen and (max-width: 390px) {
   .card .wrapper {
-    min-height: 13.5rem;
-    min-width: 15rem;
+    min-height: 16.5rem;
   }
   .card .title {
     font-size: 20px;
@@ -538,10 +538,10 @@ ul {
 }
 
 /* Iphone 12 pro max */
-@media only screen and (max-width: 430px) {
+@media only screen and (min-width: 414px) {
   .card .wrapper {
-    min-height: 14.3rem;
-  }
+    min-height: 18rem;
+    }
   .card .title {
     font-size: 20px;
   }
@@ -549,33 +549,32 @@ ul {
 /* other */
 @media (max-width: 377px) {
   .skill-card .data {
-    transform: translateY(calc(100px + 4em));
+    transform: translateY(calc(90px + 4em));
   }
   .social-icon svg {
     margin-top: 20px;
   }
   .card .wrapper {
-    min-height: 13rem;
+    min-height: 16rem;
   }
   .card .title {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 320px) {
   .card .wrapper {
-    min-height: 11rem;
+    min-height: 13.5rem;
   }
 }
-
 
 @media (min-width: 768px) {
   .card .wrapper {
-    min-width: 25rem;
+    min-height: 22rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1300px) {
   .projectcards {
     justify-content: space-evenly;
   }
