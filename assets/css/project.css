@@ -1,4 +1,5 @@
-
+<<<<<<< HEAD
+=======
 html[data-theme="light"] {
   --bg-col: #fafafa;
   --shadow1: rgba(0, 0, 0, 0.3);
@@ -527,7 +528,7 @@ ul {
 }
 
 /* Iphone 12 pro */
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 391px) {
   .card .wrapper {
     min-height: 13.5rem;
     min-width: 15rem;
@@ -540,7 +541,8 @@ ul {
 /* Iphone 12 pro max */
 @media only screen and (max-width: 428px) {
   .card .wrapper {
-    min-height: 14.3rem;
+    min-height: 14.5rem;
+    min-width: 15rem;
   }
   .card .title {
     font-size: 20px;
@@ -569,13 +571,13 @@ ul {
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1300px) {
   .projectcards {
     justify-content: space-evenly;
   }
-  /* .card .wrapper {
+  .card .wrapper {
     min-height: 20rem;
-  } */
+  }
 }
 
 @media (min-width: 960px) {
