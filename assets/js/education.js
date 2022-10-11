@@ -15,6 +15,11 @@ const moocscards = [
     moocLink: "https://www.linkedin.com/learning/unit-testing-and-test-driven-development-in-python",
   },
   {
+    title: "Tools and Techniques for Performance and Load Testing",
+    cardImage: "assets/images/education-page/logo-TAU-gold-poweredby-applitools.png",
+    moocLink: "https://testautomationu.applitools.com/performance-and-load-testing/",
+  },
+  {
     title: "Agile Foundations",
     cardImage: "assets/images/education-page/LinkedInLearning.png",
     moocLink: "https://www.linkedin.com/learning/agile-foundations",
