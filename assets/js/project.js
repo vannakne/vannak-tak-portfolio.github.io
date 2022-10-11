@@ -14,6 +14,14 @@ const projects = [
     Githublink: "",
   },
   {
+    title: "Tools and Techniques for Performance and Load Testing",
+    cardImage: "assets/images/project-page/certificates_TAU-load_performance_test.png",
+    description: "A chess engine for a popular game dev engine.",
+    tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
+    Previewlink: "https://testautomationu.applitools.com/certificate/?id=d88b4612",
+    Githublink: "",
+  },
+  {
     title: "Unit Testing and Test Driven Development in Python",
     cardImage: "assets/images/project-page/unit_test_and_tdd.png",
     description: "A chess engine for a popular game dev engine.",
