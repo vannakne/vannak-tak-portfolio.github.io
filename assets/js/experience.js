@@ -5,6 +5,13 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Quality Assurance Tester",
+    cardImage: "assets/images/experience-page/ltlabs_logo.jpeg",
+    place: "LTLabs",
+    time: "(Nov, 2022 - Present)",
+    desp: ""
+  },
+  {
     title: "Software Quality Assurance Team Lead and Test Automation",
     cardImage: "assets/images/experience-page/sathapana.png",
     place: "Sathapana Bank Plc.",
