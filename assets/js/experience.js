@@ -9,7 +9,7 @@ const exp = [
     cardImage: "assets/images/experience-page/ltlabs_logo.jpeg",
     place: "LTLabs",
     time: "(Nov, 2022 - Present)",
-    desp: ""
+    desp: "<strong>Task and Resposibility :</strong><br>- Developed and executed automation tests with Robot Framework for various web and mobile applications.<br>- Implemented Continuous Integration (CI) with Jenkins and Robot Framework to ensure timely and efficient execution of automated tests<br>- Supported other QA team members in developing and performing automation testing<br>- Verifying bugs in Jira, Conducted exploratory testing and reported defects using agile methodology.<br>- Queried data with SQL to validate test data and ensure accuracy.<br>- Performed load testing with Jmeter to assess performance and scalability."
   },
   {
     title: "Software Quality Assurance Team Lead and Test Automation",
